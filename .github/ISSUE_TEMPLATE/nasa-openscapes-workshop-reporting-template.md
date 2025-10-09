@@ -7,12 +7,13 @@ labels: workshop
 assignees: ''
 
 ---
-
-**Purpose:** reporting on workshops that use the Openscapes 2i2c Hub
-**Outcomes:** mentors, infrastructure providers, workshop supporters can copy / remix this information in formal or informal reports. Openscapes can publish as a short blog post on [nasa-openscapes.github.io/news](https://nasa-openscapes.github.io/news) and link that from home page Recent workshops for visibility.
+<!--
+**Purpose:** reporting on workshops that use the Openscapes 2i2c Hub  
+**Outcomes:** mentors, infrastructure providers, workshop supporters can copy / remix this information in formal or informal reports. Openscapes can publish as a short blog post on [nasa-openscapes.github.io/news](https://nasa-openscapes.github.io/news) and link that from home page Recent workshops for visibility.  
 **Process:** following completion of a workshop, the point of contact opens an issue using this template and fills in the elements.
 
 Please provide as much of the following information as you can, and feel free to expand on any sections.
+-->
 
 ## Insert workshop title
 ### Insert subtitle (optional)
@@ -23,7 +24,7 @@ Participants learned ______.
 
 The two-day training, [workshop title] (URL of workshop content page) was held on MONTH, DAY, YEAR, with over ___ [insert number] participants.
 
-Hands-on exercises were executed from a Jupyter Hub on the Openscapes 2i2c workshop cloud instance. Using the workshop cloud instance _____ [insert outcome or impact, e.g. significantly improves the mentors’ and participants experience and facilitates the trainings].
+Hands-on exercises were executed in a Jupyter Hub on the Openscapes 2i2c ____ [NASA | NOAA Fisheries] ____ [workshop | main production] cloud instance. Using the cloud-hosted Jupyter Hub for the workshop _____ [insert outcome or impact, e.g. significantly improves the mentors’ and participants experience and facilitates the trainings].
 
 We presented the following notebooks from the _____ [insert source repository or website; example: [VITALS GitHub Repository](https://github.com/nasa/VITALS)]:
 
