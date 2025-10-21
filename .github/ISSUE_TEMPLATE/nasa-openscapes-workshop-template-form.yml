@@ -18,7 +18,7 @@ body:
     id: workshop-start-date
     attributes:
       label: Workshop Start Date
-      description: Please provide the start date of your wor.
+      description: Please provide the start date of your workshop.
       placeholder: YYYY-MM-DD
     validations:
       required: true
