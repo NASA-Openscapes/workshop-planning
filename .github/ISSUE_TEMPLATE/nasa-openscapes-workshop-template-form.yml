@@ -120,7 +120,7 @@ body:
     validations:
       required: false
 
-  - type: checklist
+  - type: checkboxes
     id: checklist-organizer-hub-poc
     attributes:
       label: Checklist for organizer and hub POC
