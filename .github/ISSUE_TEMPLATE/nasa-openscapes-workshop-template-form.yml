@@ -2,9 +2,9 @@ name: Request & Reserve Workshop Jupyter Hub
 description: Reserve the NASA Openscapes Jupyter Hub for your workshop
 title: "[Workshop]: YYYY-MM-DD <brief description>"
 labels: "workshop"
-projects: ["nasa-openscapes/7"]
 assignees:
   - ateucher
+projects: ["NASA-Openscapes/7"]
 body:
   - type: markdown
     attributes:
