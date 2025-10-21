@@ -130,7 +130,7 @@ body:
             issue thread is fine)
         - label: |
             **Organizer**: Add your event in the
-            [workshop spreadsheet](https://docs.google.com/spreadsheets/d/1Y4qzqWLsKHTNzuQi-fOaHGud0Ld_q1GHAzhS9-grV7Q/edit?usp=sharing)
+            [workshop spreadsheet](https://docs.google.com/spreadsheets/d/1Sg4fMDGxMLI0p5cgK5xyamFJpKC6NyNneqXLDReSKcg/edit?gid=695033382)
         - label: |
             **Organizer**: Submit a ticket by email to 2i2c for the workshop
             [as per instructions](https://openscapes.cloud/password-access.html),
@@ -138,6 +138,9 @@ body:
         - label: |
             **Hub POC**: Confirm `[Event]` issue opened by 2i2c in response to ticket
             ([example](https://github.com/2i2c-org/infrastructure/issues/5466))
+        - label: |
+            **Hub POC**: Add new password and dates to 
+            [workshop password spreadsheet](https://docs.google.com/spreadsheets/d/1Y4qzqWLsKHTNzuQi-fOaHGud0Ld_q1GHAzhS9-grV7Q/edit?gid=1793413915).
         - label: |
             **Organizer**: Two weeks before event. I have tested the default hub
             images on the workshop hub or conferred with hub POC on plan for a 
