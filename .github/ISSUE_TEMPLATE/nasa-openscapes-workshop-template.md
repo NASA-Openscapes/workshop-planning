@@ -22,7 +22,7 @@ Short description is fine. Please include a link to the workshop website if you 
 **Event Start Date/Time	and Event End Date/Time**
 
 **Reset Date**
-By default the password will be reset and participants' home direrectories erased seven days after the workshop ends. 
+By default the password will be reset and participants' home directories erased seven days after the workshop ends. 
 If you want the participants to have more or less access than the default of seven days, please specify here.
 
 **Number of Participants**
