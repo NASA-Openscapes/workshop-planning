@@ -1,0 +1,155 @@
+name: Request & Reserve Workshop Jupyter Hub
+description: Reserve the NASA Openscapes Jupyter Hub for your workshop
+title: "[Workshop]: YYYY-MM-DD <brief description>"
+labels: "workshop"
+projects: NASA-Openscapes/7
+assignees:
+  - ateucher
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your interest in hosting a workshop using the NASA 
+        Openscapes Jupyter Hub! Please fill out the form below to request a 
+        reservation. We will get back to you as soon as possible to confirm your 
+        reservation.
+
+  - type: input
+    id: workshop-start-date
+    attributes:
+      label: Workshop Start Date
+      description: Please provide the start date of your wor.
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+
+  - type: input
+    id: workshop-end-date
+    attributes:
+      label: Workshop End Date
+      description: Please provide the end date of your workshop. Leave blank if it's a one-day workshop.
+      placeholder: YYYY-MM-DD
+    validations:
+      required: false
+
+  - type: input
+    id: workshop-start-time
+    attributes:
+      label: Workshop Start Time
+      description: Please provide the start time (including timezone) of your workshop.
+      placeholder: 10:00 AM PST
+    validations:
+      required: false
+
+  - type: input
+    id: workshop-end-time
+    attributes:
+      label: Workshop End Time
+      description: Please provide the end time (including timezone) of your workshop.
+      placeholder: 2:00 PM PST
+    validations:
+      required: false
+
+  - type: textarea
+    id: workshop-description
+    attributes:
+      label: Workshop Description
+      description: Please provide a brief description of your workshop.
+    validations:
+      required: true
+
+  - type: input
+    id: contact-email
+    attributes:
+      label: Contact Email
+      description: Please provide your email address for further communication.
+  
+  - type: input
+    id: reset-date
+    attributes:
+      label: Reset Date
+      description: | 
+        By default the password will be reset and participants' home directories
+        erased seven days after the workshop ends. If you want the participants 
+        to have more or less access than the default of seven days, please specify.
+      placeholder: YYYY-MM-DD
+    validations:
+      required: false
+
+  - type: input
+    id: num-participants
+    attributes:
+      label: Estimated Number of Participants
+      description: Please provide an estimate of the number of participants attending your workshop.
+    validations:
+      required: true
+
+  - type: textarea
+    id: compute-requirements
+    attributes:
+      label: Compute Requirements
+      description: |
+        What size compute resources will participants be asked to select when they log in? 
+        2Gb (default), 4Gb, more? This is selected in the dropdown and knowing what you 
+        will need helps us make sure the hub is adequately provisioned.
+    validations:
+      required: true
+
+  - type: textarea
+    id: image-requirements
+    attributes:
+      label: Image Requirements
+      description: |
+        Will you be using the default Openscapes image, or a custom image? 
+        Confirm that the image you will be using is sufficient for your needs 
+        (i.e., has the packages and sufficient versions you need), or that you 
+        have created an image that can be used by participants.
+    validations:
+      required: false
+
+  - type: textarea
+    id: storage-requirements
+    attributes:
+      label: Storage Requirements
+      description: |
+        Are there any special storage needs? Like will participants need access 
+        to large shared files? Do you anticipate that participants might download 
+        lots (10s of Gb or more) of data? If so, we will work with you on how best 
+        to do that in the workshop. We have a S3 scratch bucket and a shared drive 
+        so that we don't have 10s of copies of big data sets.
+    validations:
+      required: false
+
+  - type: checklist
+    id: checklist-organizer-hub-poc
+    attributes:
+      label: Checklist for organizer and hub POC
+      options:
+        - label: |
+            **Hub POC**: Send confirmation to organizer (a comment in this
+            issue thread is fine)
+        - label: |
+            **Organizer**: Add your event in the
+            [workshop spreadsheet](https://docs.google.com/spreadsheets/d/1Y4qzqWLsKHTNzuQi-fOaHGud0Ld_q1GHAzhS9-grV7Q/edit?usp=sharing)
+        - label: |
+            **Organizer**: Submit a ticket by email to 2i2c for the workshop
+            [as per instructions](https://openscapes.cloud/password-access.html),
+            cc'ing hub POC.
+        - label: |
+            **Hub POC**: Confirm `[Event]` issue opened by 2i2c in response to ticket
+            ([example](https://github.com/2i2c-org/infrastructure/issues/5466))
+        - label: |
+            **Organizer**: Two weeks before event. I have tested the default hub
+            images on the workshop hub or conferred with hub POC on plan for a 
+            workshop specific image.
+        - label: |
+            **Organizer**: In the week before the event (or when POC indicates
+            password should be live). I tested that the workshop password works 
+            and images work.
+        - label: |
+            **Hub POC**: After event, put in a 2i2c ticket to remove the
+            participants directories, cleared shared-public, and reset password.
+        - label: |
+            **Organizer**: After the event, open an 
+            [issue](https://github.com/NASA-Openscapes/workshop-planning/issues/new?template=nasa-openscapes-workshop-reporting-template.md)
+            in the Workshop Planning repo to report back.
