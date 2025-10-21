@@ -10,7 +10,7 @@ assignees: ''
 <!--
 **Purpose:** reporting on workshops that use the Openscapes 2i2c Hub  
 **Outcomes:** mentors, infrastructure providers, workshop supporters can copy / remix this information in formal or informal reports. Openscapes can publish as a short blog post on [nasa-openscapes.github.io/news](https://nasa-openscapes.github.io/news) and link that from home page Recent workshops for visibility.  
-**Process:** following completion of a workshop, the point of contact opens an issue using this template and fills in the elements.
+**Process:** following completion of a workshop, the point of contact opens an issue using this template and fills in the elements. When you open this issue, please link to (in the "Other Links" section), and then close the planning issue originally opened for the workshop.
 
 Please provide as much of the following information as you can, and feel free to expand on any sections.
 -->
@@ -38,8 +38,8 @@ We presented the following notebooks from the _____ [insert source repository or
 
 ### Other links
 
+Here is the planning issue in this repo for the workshop: _____ [ example: #154]
 Here is the 2i2c request for the workshop: _____ [ example: https://github.com/2i2c-org/infrastructure/issues/6645]
-
 
 ### Citing Openscapes JupyterHub Access
 
