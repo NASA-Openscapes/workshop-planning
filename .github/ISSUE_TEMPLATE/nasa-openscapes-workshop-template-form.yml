@@ -1,4 +1,4 @@
-name: Request & Reserve Workshop Jupyter Hub
+name: NASA Openscapes JupyterHub workshop request
 description: Reserve the NASA Openscapes Jupyter Hub for your workshop
 title: "[Workshop]: YYYY-MM-DD <brief description>"
 labels: "workshop"
