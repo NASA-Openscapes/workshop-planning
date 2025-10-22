@@ -144,3 +144,9 @@ body:
             **Hub PoC**: After event, put in a 2i2c ticket to remove the participants directories, cleared shared-public, and reset password.
         - label: |
             **Organizer**: After the event, open an [issue](https://github.com/NASA-Openscapes/workshop-planning/issues/new?template=nasa-openscapes-workshop-reporting-template.md) in the Workshop Planning repo to report back.
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        _Please click on the "Projects" button below and tick the "Main Planning" project if it is available to you_
