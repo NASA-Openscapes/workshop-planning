@@ -43,6 +43,9 @@ Here is the 2i2c request for the workshop: _____ [ example: https://github.com/2
 
 ### Citing Openscapes JupyterHub Access
 
+In your summary, please acknowledge 2i2c with text like 
+> Thanks to 2i2c for enabling our participants to have easy access to the computational environments needed to learn and analyze this data by managing our community hub!
+
 To track the impact that providing [Openscapes JupyterHub Access](https://openscapes.cloud/) has on publications and research output, we ask that any projects and publications that Openscapes JupyterHub Access supports, do at least one of two things:
 
 1. In the acknowledgements section, include NASA Openscapes and 2i2c
