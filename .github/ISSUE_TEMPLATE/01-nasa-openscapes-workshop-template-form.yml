@@ -124,16 +124,16 @@ body:
   - type: checkboxes
     id: checklist-organizer-hub-poc
     attributes:
-      label: Checklist for organizer and hub point-of-contact (PoC)
+      label: Checklist for workshop organizer (person planning/leading the workshop) and hub point-of-contact (PoC; Openscapes team member helping with hub setup and logistics. Usually @ateucher).
       options:
         - label: |
-            **Hub PoC**: Send confirmation to organizer (a comment in this issue thread is fine)
+            **Hub PoC**: Send confirmation to organizer that the request is received and the hub is available for the workshop (a comment in this issue thread is fine)
         - label: |
             **Organizer**: Add your event in the [workshop spreadsheet](https://docs.google.com/spreadsheets/d/1Sg4fMDGxMLI0p5cgK5xyamFJpKC6NyNneqXLDReSKcg/edit?gid=695033382)
         - label: |
             **Organizer**: Submit a ticket by email to 2i2c for the workshop [as per instructions](https://openscapes.cloud/password-access.html), cc'ing hub PoC.
         - label: |
-            **Hub PoC**: Confirm `[Event]` issue opened in [2i2c-org/infrastructure](https://github.com/2i2c-org/infrastructure/) in response to ticket ([example](https://github.com/2i2c-org/infrastructure/issues/5466))
+            **Hub PoC**: Confirm `[Event]` or `[Support]` issue opened in [2i2c-org/infrastructure](https://github.com/2i2c-org/infrastructure/issues) in response to ticket ([example](https://github.com/2i2c-org/infrastructure/issues/5466))
         - label: |
             **Hub PoC**: Add new password and dates to [workshop password spreadsheet](https://docs.google.com/spreadsheets/d/1Y4qzqWLsKHTNzuQi-fOaHGud0Ld_q1GHAzhS9-grV7Q/edit?gid=1793413915).
         - label: |
