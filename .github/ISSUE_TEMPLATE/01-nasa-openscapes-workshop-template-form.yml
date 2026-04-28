@@ -4,7 +4,7 @@ title: "[Workshop]: YYYY-MM-DD <brief description>"
 labels: "workshop"
 assignees:
   - ateucher
-projects: 
+projects:
   - "NASA-Openscapes/7"
 body:
   - type: markdown
@@ -81,7 +81,7 @@ body:
     id: reset-date
     attributes:
       label: Reset Date
-      description: | 
+      description: |
         By default the password will be reset and participants' home directories
         erased seven days after the workshop ends. If you want the participants
         to have more or less access than the default of seven days, please specify.
@@ -139,8 +139,8 @@ body:
       label: Checklist for workshop organizer (person planning/leading the workshop) and hub point-of-contact (PoC; Openscapes team member helping with hub setup and logistics. Usually @ateucher).
       options:
         - label: >
-            **Hub PoC**: Send confirmation to organizer that the request is 
-            received and the hub is available for the workshop (a comment in 
+            **Hub PoC**: Send confirmation to organizer that the request is
+            received and the hub is available for the workshop (a comment in
             this issue thread is fine).
         - label: >
             **Organizer**: Add your event in the
@@ -150,39 +150,39 @@ body:
             support multiple workshops at the same time.
         - label: >
             **Organizer**: Submit a ticket by email to 2i2c for the workshop and
-            request a new password for the workshop, 
-            [as per instructions](https://openscapes.cloud/password-access.html), 
-            cc'ing hub PoC (@ateucher; andy [at] openscapes [dot] org). You will 
-            receive confirmation of the new password for the workshop from 2i2c 
+            request a new password for the workshop,
+            [as per instructions](https://openscapes.cloud/password-access.html),
+            cc'ing hub PoC (@ateucher; andy [at] openscapes [dot] org). You will
+            receive confirmation of the new password for the workshop from 2i2c
             once it is reset.
         - label: >
-            **Hub PoC**: Confirm `[Event]` or `[Support]` issue opened in 
-            [2i2c-org/infrastructure](https://github.com/2i2c-org/infrastructure/issues) 
+            **Hub PoC**: Confirm `[Event]` or `[Support]` issue opened in
+            [2i2c-org/infrastructure](https://github.com/2i2c-org/infrastructure/issues)
             in response to ticket ([example](https://github.com/2i2c-org/infrastructure/issues/5466))
         - label: >
-            **Hub PoC**: Add new password and dates to 
+            **Hub PoC**: Add new password and dates to
             [workshop password spreadsheet](https://docs.google.com/spreadsheets/d/1Y4qzqWLsKHTNzuQi-fOaHGud0Ld_q1GHAzhS9-grV7Q/edit?gid=1793413915).
         - label: >
-            **Organizer**: Two weeks before event. I have tested the default hub 
-            images on the workshop hub or conferred with hub PoC on plan for a 
+            **Organizer**: Two weeks before event. I have tested the default hub
+            images on the workshop hub or conferred with hub PoC on plan for a
             workshop specific image.
         - label: >
-            **Organizer**: In the week before the event (or when hub PoC 
-            indicates password should be live). I tested that the workshop 
+            **Organizer**: In the week before the event (or when hub PoC
+            indicates password should be live). I tested that the workshop
             password works and images work.
         - label: >
-            **Organizer**: After the event, open an 
-            [issue](https://github.com/NASA-Openscapes/workshop-planning/issues/new?template=nasa-openscapes-workshop-reporting-template.md) 
+            **Organizer**: After the event, open an
+            [issue](https://github.com/NASA-Openscapes/workshop-planning/issues/new?template=nasa-openscapes-workshop-reporting-template.md)
             in the Workshop Planning repo to report back.
         - label: >
             **Hub PoC**: After event, put in a 2i2c ticket to reset password.
         - label: >
-            **Hub PoC**: After event, log in to the hub as admin, enumerate the 
-            participant directories and update the workshop spreadsheet with the 
+            **Hub PoC**: After event, log in to the hub as admin, enumerate the
+            participant directories and update the workshop spreadsheet with the
             actual number of participants.
         - label: >
             **Hub PoC**: After event, delete the participant directories.
         - label: >
-            **Hub PoC**: Close the issue. If the workshop was completed, close 
-            as "completed". If the workshop was cancelled before being held, 
+            **Hub PoC**: Close the issue. If the workshop was completed, close
+            as "completed". If the workshop was cancelled before being held,
             close as "Not Planned" and note in the comments that it was cancelled.
