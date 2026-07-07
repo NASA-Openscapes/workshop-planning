@@ -154,7 +154,9 @@ body:
             [as per instructions](https://openscapes.cloud/password-access.html),
             cc'ing hub PoC (@ateucher; andy [at] openscapes [dot] org). You will
             receive confirmation of the new password for the workshop from 2i2c
-            once it is reset.
+            once it is reset. _**Note: DO NOT include the password in this issue 
+            or any public-facing websites. You will share it with participants on
+            the day of the workshop.**_
         - label: >
             **Hub PoC**: Confirm `[Event]` or `[Support]` issue opened in
             [2i2c-org/infrastructure](https://github.com/2i2c-org/infrastructure/issues)
